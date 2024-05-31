@@ -1,0 +1,15 @@
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/bin/Debug/net8.0/HW2Conditionals
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/bin/Debug/net8.0/HW2Conditionals.deps.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/bin/Debug/net8.0/HW2Conditionals.runtimeconfig.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/bin/Debug/net8.0/HW2Conditionals.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/bin/Debug/net8.0/HW2Conditionals.pdb
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.AssemblyInfoInputs.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.AssemblyInfo.cs
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.sourcelink.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/refint/HW2Conditionals.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.pdb
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/HW2Conditionals.genruntimeconfig.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/Debug/net8.0/ref/HW2Conditionals.dll
