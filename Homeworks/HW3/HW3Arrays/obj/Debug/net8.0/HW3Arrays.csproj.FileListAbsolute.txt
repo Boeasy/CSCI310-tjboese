@@ -1,0 +1,15 @@
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/bin/Debug/net8.0/HW3Arrays
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/bin/Debug/net8.0/HW3Arrays.deps.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/bin/Debug/net8.0/HW3Arrays.runtimeconfig.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/bin/Debug/net8.0/HW3Arrays.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/bin/Debug/net8.0/HW3Arrays.pdb
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.AssemblyInfoInputs.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.AssemblyInfo.cs
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.sourcelink.json
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/refint/HW3Arrays.dll
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.pdb
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/HW3Arrays.genruntimeconfig.cache
+/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW3/HW3Arrays/obj/Debug/net8.0/ref/HW3Arrays.dll
