@@ -26,7 +26,6 @@ namespace BirthdayCalculator
             DateTime today = DateTime.Today;
             string zodiac_output;
             string chinese_zodiac;
-            string horoscope_output;
 
             while (true)
             { 
@@ -148,7 +147,7 @@ namespace BirthdayCalculator
 
         }
 
-        static bool IsReasonableAge(DateTime birthday)
+        static bool IsReasonableAge(DateTime birthday) //left in incase changing input to full data object, otherwise not needed as each day/month/year is checked individually.
         {
             DateTime today = DateTime.Today;
             int age = today.Year - birthday.Year;
