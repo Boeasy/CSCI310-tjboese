@@ -203,47 +203,35 @@ namespace BirthdayCalculator
             return $"{chineseZodiac[zodiac_index]} {heavenlyStems[stem_index]}";
         }
 
-        static async Task getHoroscope(string sign)
+static async Task getHoroscope(string sign) //using ohmanda.com api to get horoscope based on input
+{
+    sign = sign.ToLower(); //will change this based on sign
+
+    try
+    {
+        string apiURL = $"https://ohmanda.com/api/horoscope/{sign}/";
+
+        using (HttpClient client = new HttpClient())
         {
-            sign = "aries"; //will change this based on sign
-
-            try
+            using (HttpResponseMessage response = await client.GetAsync(apiURL))
             {
-                string apiURL = $"https://aztro.sameerkumar.website";
-
-                var requestData = new
+                if (response.IsSuccessStatusCode)
                 {
-                    sign = sign,
-                    day = "today"
-                };
-
-                string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(requestData);
-
-                using (HttpClient client = new HttpClient())
+                    string jsonResponse = await response.Content.ReadAsStringAsync();
+                    Console.WriteLine(jsonResponse);
+                }
+                else
                 {
-                    client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
-                    
-                    using (HttpResponseMessage response = await client.PostAsJsonAsync(apiURL, new StringContent(jsonData, Encoding.UTF8, "application/json")))
-                    {
-                        if (response.IsSuccessStatusCode)
-                        {
-                            string jsonResponse = await response.Content.ReadAsStringAsync();
-                            Console.WriteLine(jsonResponse);
-                        }
-                        else
-                        {
-                            Console.WriteLine($"Failed to retrieve data. Status code: {response.StatusCode}");
-                        }
-                    }
+                    Console.WriteLine($"Failed to retrieve data. Status code: {response.StatusCode}");
                 }
             }
-            catch (Exception ex)
-            {
-                Console.WriteLine($"An error occurred: {ex.Message}");
-            }
         }
-        
-        
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"An error occurred: {ex.Message}");
+    }
+}
     }
     
 }
