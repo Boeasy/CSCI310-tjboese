@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW3Arrays")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f58b30aed2459f31c1517fcddac53fdf2f521569")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc84db9a95807f5934e4d4a1df6745f754f8a9ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW3Arrays")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW3Arrays")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

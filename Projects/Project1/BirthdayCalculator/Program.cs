@@ -1,5 +1,8 @@
 ﻿using System;
+using System.Net.Http.Json;
 using System.Reflection.Metadata;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace BirthdayCalculator
 {
@@ -17,15 +20,19 @@ namespace BirthdayCalculator
         static void Main(string[] args)
         {
             string temp_input;
-            int32 birth_year; //no more than 123 years old
-            int32 birth_month; // 1 - 12
-            int32 birth_day; // 1-31
+            int birth_year; //no more than 123 years old
+            int birth_month; // 1 - 12
+            int birth_day; // 1-31
+            DateTime today = DateTime.Today;
+            string zodiac_output;
+            string chinese_zodiac;
+            string horoscope_output;
 
             while (true)
             { 
                 Console.WriteLine("Enter in your birth year");
                 temp_input = Console.ReadLine();
-                if (int32.TryParse(temp_input, out birth_year))
+                if (int.TryParse(temp_input, out birth_year))
                 {
                     if (birth_year > 1900)
                     {
@@ -48,7 +55,7 @@ namespace BirthdayCalculator
                 Console.WriteLine("Enter your birth month (1-12)");
                 temp_input = Console.ReadLine();
 
-                if (int32.TryParse(temp_input, out birth_month))
+                if (int.TryParse(temp_input, out birth_month))
                 {
                     Console.WriteLine($"You have entered: {birth_month}");
                     if (birth_month >= 1 & birth_month <= 12)
@@ -71,7 +78,7 @@ namespace BirthdayCalculator
                 Console.WriteLine("Enter your birth day (1-31)");
                 temp_input = Console.ReadLine();
 
-                if (int32.TryParse(temp_input, out birth_day))
+                if (int.TryParse(temp_input, out birth_day))
                 {
                     Console.WriteLine($"You have entered: {birth_day}");
                     if (birth_month == 1 || birth_month == 3 || birth_month == 5 || birth_month == 7 || birth_month == 8 || birth_month == 10 || birth_month == 12) 
@@ -114,9 +121,31 @@ namespace BirthdayCalculator
                     Console.WriteLine("Invalid Input, enter a valid integer day between 1 and 31");
                 }
             }
+
+            DateTime birthday = new DateTime(birth_year, birth_month, birth_day);
             
+            if (birthday.Day == today.Day & birthday.Month == today.Month)
+            {
+                Console.WriteLine("Happy Cake Day!");
+            }
+
+            chinese_zodiac = ChineseAstrologicalSign(birthday);
+            zodiac_output = WesternAstrologicalSign(birthday);
             
+            Console.WriteLine($"Your Zodiac Sign is: {zodiac_output}");
+            Console.WriteLine($"Your Chinese Zodiac Sign is: {chinese_zodiac}");
+
+            try
+            {
+                getHoroscope(zodiac_output).Wait();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Something went wrong: {ex.Message}");
+            }
             
+
+
         }
 
         static bool IsReasonableAge(DateTime birthday)
@@ -172,6 +201,46 @@ namespace BirthdayCalculator
             int stem_index = (year - 4) % 10;
 
             return $"{chineseZodiac[zodiac_index]} {heavenlyStems[stem_index]}";
+        }
+
+        static async Task getHoroscope(string sign)
+        {
+            sign = "aries"; //will change this based on sign
+
+            try
+            {
+                string apiURL = $"https://aztro.sameerkumar.website";
+
+                var requestData = new
+                {
+                    sign = sign,
+                    day = "today"
+                };
+
+                string jsonData = Newtonsoft.Json.JsonConvert.SerializeObject(requestData);
+
+                using (HttpClient client = new HttpClient())
+                {
+                    client.DefaultRequestHeaders.Accept.Add(new System.Net.Http.Headers.MediaTypeWithQualityHeaderValue("application/json"));
+                    
+                    using (HttpResponseMessage response = await client.PostAsJsonAsync(apiURL, new StringContent(jsonData, Encoding.UTF8, "application/json")))
+                    {
+                        if (response.IsSuccessStatusCode)
+                        {
+                            string jsonResponse = await response.Content.ReadAsStringAsync();
+                            Console.WriteLine(jsonResponse);
+                        }
+                        else
+                        {
+                            Console.WriteLine($"Failed to retrieve data. Status code: {response.StatusCode}");
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+            }
         }
         
         

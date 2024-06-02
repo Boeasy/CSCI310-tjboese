@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4SRnmLs0JGFxXDZkN+FAe0FBad9VLm2fWLBkRT/he5cZOfEB+U15VNbtmyd6C3LjCmIGpYaWqzJdZscfAxJE2A==",
+  "dgSpecHash": "c4yz2CMxkNXDHBxMk4N77v/RmkvvBhCOaDSwt2l0CxjYV0SXxdmsZlvvvOkyjph0bczhFkgZTBy4JU/OQRES6Q==",
   "success": true,
   "projectFilePath": "/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Projects/Project1/BirthdayCalculator/BirthdayCalculator.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/tyrelboese/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
   "logs": []
 }

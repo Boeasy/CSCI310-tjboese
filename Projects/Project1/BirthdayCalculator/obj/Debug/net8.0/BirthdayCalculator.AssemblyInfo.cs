@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BirthdayCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83458e5131ee0f834aa5b55c67155a630ba36472")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fc84db9a95807f5934e4d4a1df6745f754f8a9ea")]
 [assembly: System.Reflection.AssemblyProductAttribute("BirthdayCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BirthdayCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
