@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/HW2Conditionals.csproj",
+      "projectUniqueName": "/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/HW2Conditionals.csproj",
       "projectName": "HW2Conditionals",
-      "projectPath": "/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/HW2Conditionals.csproj",
+      "projectPath": "/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/HW2Conditionals.csproj",
       "packagesPath": "/Users/tyrelboese/.nuget/packages/",
-      "outputPath": "/Users/tyrelboese/RiderProjects/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/",
+      "outputPath": "/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW2/HW2Conditionals/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tyrelboese/.nuget/NuGet/NuGet.Config"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/Users/tyrelboese/.dotnet/sdk/8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.301/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

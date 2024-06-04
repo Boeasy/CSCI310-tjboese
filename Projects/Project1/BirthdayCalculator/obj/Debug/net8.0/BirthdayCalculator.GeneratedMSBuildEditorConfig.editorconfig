@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BirthdayCalculator
-build_property.ProjectDir = /Users/tyrelboese/RiderProjects/CSCI310-tjboese/Projects/Project1/BirthdayCalculator/
+build_property.ProjectDir = /Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project1/BirthdayCalculator/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
