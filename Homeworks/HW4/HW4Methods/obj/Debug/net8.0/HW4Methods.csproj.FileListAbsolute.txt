@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/bin/Debug/net8.0/HW4Methods
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/bin/Debug/net8.0/HW4Methods.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/bin/Debug/net8.0/HW4Methods.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/bin/Debug/net8.0/HW4Methods.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/bin/Debug/net8.0/HW4Methods.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/refint/HW4Methods.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/HW4Methods.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW4/HW4Methods/obj/Debug/net8.0/ref/HW4Methods.dll

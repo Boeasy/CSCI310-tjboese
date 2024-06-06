@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW2Conditionals")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bf719531bbe10c9793611bb08dd95130d34f742d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+69621a4734016fd03a979231c7758d1f183c7ef3")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW2Conditionals")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW2Conditionals")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
