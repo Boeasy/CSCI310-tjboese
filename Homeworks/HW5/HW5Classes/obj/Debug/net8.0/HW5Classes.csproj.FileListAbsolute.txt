@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/bin/Debug/net8.0/HW5Classes
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/bin/Debug/net8.0/HW5Classes.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/bin/Debug/net8.0/HW5Classes.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/bin/Debug/net8.0/HW5Classes.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/bin/Debug/net8.0/HW5Classes.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/refint/HW5Classes.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/HW5Classes.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW5/HW5Classes/obj/Debug/net8.0/ref/HW5Classes.dll
