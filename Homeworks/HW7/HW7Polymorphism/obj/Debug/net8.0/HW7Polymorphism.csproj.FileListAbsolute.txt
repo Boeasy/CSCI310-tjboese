@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/bin/Debug/net8.0/HW7Polymorphism
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/bin/Debug/net8.0/HW7Polymorphism.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/bin/Debug/net8.0/HW7Polymorphism.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/bin/Debug/net8.0/HW7Polymorphism.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/bin/Debug/net8.0/HW7Polymorphism.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/refint/HW7Polymorphism.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/HW7Polymorphism.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW7/HW7Polymorphism/obj/Debug/net8.0/ref/HW7Polymorphism.dll

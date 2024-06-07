@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/bin/Debug/net8.0/HW6Inheritance
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/bin/Debug/net8.0/HW6Inheritance.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/bin/Debug/net8.0/HW6Inheritance.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/bin/Debug/net8.0/HW6Inheritance.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/bin/Debug/net8.0/HW6Inheritance.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/refint/HW6Inheritance.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/HW6Inheritance.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW6/HW6Inheritance/obj/Debug/net8.0/ref/HW6Inheritance.dll

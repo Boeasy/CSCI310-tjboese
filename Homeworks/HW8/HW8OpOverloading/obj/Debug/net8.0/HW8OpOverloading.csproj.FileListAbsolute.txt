@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/bin/Debug/net8.0/HW8OpOverloading
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/bin/Debug/net8.0/HW8OpOverloading.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/bin/Debug/net8.0/HW8OpOverloading.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/bin/Debug/net8.0/HW8OpOverloading.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/bin/Debug/net8.0/HW8OpOverloading.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/refint/HW8OpOverloading.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/HW8OpOverloading.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW8/HW8OpOverloading/obj/Debug/net8.0/ref/HW8OpOverloading.dll
