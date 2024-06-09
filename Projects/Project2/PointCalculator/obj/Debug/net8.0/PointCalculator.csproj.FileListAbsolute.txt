@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/bin/Debug/net8.0/PointCalculator
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/bin/Debug/net8.0/PointCalculator.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/bin/Debug/net8.0/PointCalculator.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/bin/Debug/net8.0/PointCalculator.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/bin/Debug/net8.0/PointCalculator.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/refint/PointCalculator.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/PointCalculator.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project2/PointCalculator/obj/Debug/net8.0/ref/PointCalculator.dll
