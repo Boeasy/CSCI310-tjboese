@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/bin/Debug/net8.0/HW11Collections
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/bin/Debug/net8.0/HW11Collections.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/bin/Debug/net8.0/HW11Collections.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/bin/Debug/net8.0/HW11Collections.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/bin/Debug/net8.0/HW11Collections.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/refint/HW11Collections.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/HW11Collections.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW11/HW11Collections/obj/Debug/net8.0/ref/HW11Collections.dll

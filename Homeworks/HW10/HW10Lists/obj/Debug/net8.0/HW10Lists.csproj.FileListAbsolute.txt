@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/bin/Debug/net8.0/HW10Lists
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/bin/Debug/net8.0/HW10Lists.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/bin/Debug/net8.0/HW10Lists.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/bin/Debug/net8.0/HW10Lists.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/bin/Debug/net8.0/HW10Lists.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/refint/HW10Lists.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/HW10Lists.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW10/HW10Lists/obj/Debug/net8.0/ref/HW10Lists.dll

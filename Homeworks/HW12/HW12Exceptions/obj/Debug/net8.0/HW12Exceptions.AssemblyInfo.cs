@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW12Exceptions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+611e33276f1b7f60edb9eb63d892bcd50da16861")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70dc0908293a5d39a3bab38bbc7d5c1dd7d63491")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW12Exceptions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW12Exceptions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/bin/Debug/net8.0/HW12Exceptions
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/bin/Debug/net8.0/HW12Exceptions.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/bin/Debug/net8.0/HW12Exceptions.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/bin/Debug/net8.0/HW12Exceptions.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/bin/Debug/net8.0/HW12Exceptions.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/refint/HW12Exceptions.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/HW12Exceptions.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW12/HW12Exceptions/obj/Debug/net8.0/ref/HW12Exceptions.dll

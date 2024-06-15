@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/bin/Debug/net8.0/HW9Interfaces
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/bin/Debug/net8.0/HW9Interfaces.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/bin/Debug/net8.0/HW9Interfaces.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/bin/Debug/net8.0/HW9Interfaces.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/bin/Debug/net8.0/HW9Interfaces.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/refint/HW9Interfaces.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/HW9Interfaces.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW9/HW9Interfaces/obj/Debug/net8.0/ref/HW9Interfaces.dll
