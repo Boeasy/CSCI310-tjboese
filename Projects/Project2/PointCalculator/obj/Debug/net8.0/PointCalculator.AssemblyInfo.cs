@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PointCalculator")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d050b5b56416c07691589260736cf8b547e96476")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6acfa095d5cf5f8e9fc3728e91b48f67847b20e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("PointCalculator")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PointCalculator")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

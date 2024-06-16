@@ -45,7 +45,7 @@ namespace HW10Lists
             PrintList(stringList);
         }
 
-        static void InsertValue(System.Collections.Generic.List<int> list, int value)
+        static void InsertValue(List<int> list, int value)
         {
             int index = list.BinarySearch(value);
             if (index < 0)
@@ -55,7 +55,7 @@ namespace HW10Lists
             list.Insert(index, value);
         }
 
-        static void PrintList<T>(System.Collections.Generic.List<T> list)
+        static void PrintList<T>(List<T> list)
         {
             Console.WriteLine($"Printing list of {typeof(T)}");
             foreach (var i in list)

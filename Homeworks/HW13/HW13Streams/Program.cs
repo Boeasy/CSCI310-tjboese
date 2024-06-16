@@ -16,7 +16,7 @@ namespace HW13Streams
             List<string> parsedLines = new List<string>();
 
 
-            using (System.IO.StreamReader reader = new System.IO.StreamReader("input.txt"))
+            using (StreamReader reader = new StreamReader("input.txt"))
             {
                 string line = reader.ReadLine();
                 while ((line = reader.ReadLine()) != null)
@@ -36,7 +36,7 @@ namespace HW13Streams
             }
 
             Console.WriteLine("Writing to file...");
-            using (System.IO.StreamWriter writer = new System.IO.StreamWriter("output.txt"))
+            using (StreamWriter writer = new StreamWriter("output.txt"))
             {
                 foreach (string line in parsedLines)
                 {

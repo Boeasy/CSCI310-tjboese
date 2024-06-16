@@ -14,9 +14,9 @@ namespace HW11Collections
     {
         static void Main(string[] args)
         {
-            System.Collections.Generic.Dictionary<int, string> dictionary = new System.Collections.Generic.Dictionary<int, string>();
-            System.Collections.Generic.Queue<int> queue = new System.Collections.Generic.Queue<int>();
-            System.Collections.Generic.Stack<int> stack = new System.Collections.Generic.Stack<int>();
+            var dictionary = new Dictionary<int, string>();
+            var queue = new Queue<int>();
+            var stack = new Stack<int>();
 
             dictionary.Add(1, "One");
             dictionary.Add(2, "Two");
@@ -41,7 +41,7 @@ namespace HW11Collections
             PrintStack(stack);
         }
 
-        static void PrintDictionary(System.Collections.Generic.Dictionary<int, string> dictionary)
+        static void PrintDictionary(Dictionary<int, string> dictionary)
         {
             Console.WriteLine("Printing Dictionary");
             foreach (var item in dictionary)
@@ -50,7 +50,7 @@ namespace HW11Collections
             }
         }
 
-        static void PrintQueue(System.Collections.Generic.Queue<int> queue)
+        static void PrintQueue(Queue<int> queue)
         {
             Console.WriteLine("Printing Queue");
             foreach (var item in queue)
@@ -59,7 +59,7 @@ namespace HW11Collections
             }
         }
 
-        static void PrintStack(System.Collections.Generic.Stack<int> stack)
+        static void PrintStack(Stack<int> stack)
         {
             Console.WriteLine("Printing Stack");
             foreach (var item in stack)

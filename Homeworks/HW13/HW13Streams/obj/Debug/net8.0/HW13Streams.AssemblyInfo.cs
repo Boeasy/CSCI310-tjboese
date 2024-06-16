@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW13Streams")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+70dc0908293a5d39a3bab38bbc7d5c1dd7d63491")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6acfa095d5cf5f8e9fc3728e91b48f67847b20e2")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW13Streams")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW13Streams")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

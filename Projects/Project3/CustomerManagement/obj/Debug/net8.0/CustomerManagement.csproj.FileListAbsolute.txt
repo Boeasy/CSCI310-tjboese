@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/bin/Debug/net8.0/CustomerManagement
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/bin/Debug/net8.0/CustomerManagement.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/bin/Debug/net8.0/CustomerManagement.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/bin/Debug/net8.0/CustomerManagement.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/bin/Debug/net8.0/CustomerManagement.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/refint/CustomerManagement.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/CustomerManagement.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project3/CustomerManagement/obj/Debug/net8.0/ref/CustomerManagement.dll
