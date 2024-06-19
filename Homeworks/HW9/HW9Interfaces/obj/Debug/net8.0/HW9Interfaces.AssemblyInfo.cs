@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW9Interfaces")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6acfa095d5cf5f8e9fc3728e91b48f67847b20e2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5feecf09674bc44718f7bec6b452de3f7597968a")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW9Interfaces")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW9Interfaces")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
