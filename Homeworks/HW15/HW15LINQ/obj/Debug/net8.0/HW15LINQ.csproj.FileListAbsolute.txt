@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/bin/Debug/net8.0/HW15LINQ
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/bin/Debug/net8.0/HW15LINQ.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/bin/Debug/net8.0/HW15LINQ.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/bin/Debug/net8.0/HW15LINQ.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/bin/Debug/net8.0/HW15LINQ.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/refint/HW15LINQ.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/HW15LINQ.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW15/HW15LINQ/obj/Debug/net8.0/ref/HW15LINQ.dll

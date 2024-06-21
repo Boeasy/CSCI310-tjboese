@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/bin/Debug/net8.0/HW14Delegates
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/bin/Debug/net8.0/HW14Delegates.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/bin/Debug/net8.0/HW14Delegates.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/bin/Debug/net8.0/HW14Delegates.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/bin/Debug/net8.0/HW14Delegates.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/refint/HW14Delegates.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/HW14Delegates.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Homeworks/HW14/HW14Delegates/obj/Debug/net8.0/ref/HW14Delegates.dll
