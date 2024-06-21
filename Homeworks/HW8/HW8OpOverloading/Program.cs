@@ -142,5 +142,11 @@ public class CSFractions
      
       Console.WriteLine(frac1 == frac2); // False
       Console.WriteLine(frac3 != frac4); // True
+
+        Fraction frac5 = frac1 * frac2;
+        frac5.PrintFraction();
+
+        Fraction frac6 = frac1 / frac2;
+        frac6.PrintFraction();
   }
 }
