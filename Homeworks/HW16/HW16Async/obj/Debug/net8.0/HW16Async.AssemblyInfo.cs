@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HW16Async")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+813898f81f6fb17750fd4fc0b5c3626844c4487c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0312ebcb19540ad13801a04b7e5e8da819173afe")]
 [assembly: System.Reflection.AssemblyProductAttribute("HW16Async")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HW16Async")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

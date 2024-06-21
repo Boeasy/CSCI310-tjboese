@@ -13,18 +13,18 @@ namespace HW16Async
 
     class dimension
     {
-        string  type { get; set; }
-        generator generator { get; set; }
+        public string  type { get; set; }
+        public generator generator { get; set; }
 
     }
     class generator
     {
-        string type { get; set; }
-        biome_source biome_source { get; set; }
+        public string type { get; set; }
+        public biome_source biome_source { get; set; }
     }
     class biome_source
     {
-        biomes[] biomes { get; set; }
+        public biomes[] biomes { get; set; }
     }
     class biomes
     {
@@ -50,15 +50,14 @@ namespace HW16Async
     {
         static async Task Main(string[] args)
         {
-            Task readJson = readJSON();
-            Task printBiomes = readBiomes();
+            string json = await readJSON(); //if this takes too long ue JsonTextReader to do it incrementally...
+            Task printBiomes = readBiomes(json);
 
-            await readJson;
             await printBiomes;
 
         }
 
-        static Task readJSON()
+        static Task<string> readJSON()
         {
             return Task.Run(() =>
             {
@@ -66,16 +65,31 @@ namespace HW16Async
             using (StreamReader sr = new StreamReader(path))
             {
                 string json = sr.ReadToEnd();
-                Console.WriteLine(json);
+                return json;
             }
             }
             );
         }
-        static Task readBiomes()
+        static Task readBiomes(string jsonBiomes)
         {
             return Task.Run(() =>
             {
                 //read json pieces into different classes...
+                dimension dim = JsonConvert.DeserializeObject<dimension>(jsonBiomes);
+                foreach (biomes temp in dim.generator.biome_source.biomes)
+                {
+                    Console.WriteLine("Biome: " + temp.biome);
+                    Console.WriteLine("Continentalness: " + temp.parameters.continentalness[0] + " - " + temp.parameters.continentalness[1]);
+                    Console.WriteLine("Depth: " + temp.parameters.depth); //causes annoying error with dripstone & lush caves because it is an array instead of single value like the rest... deleting for now
+                    Console.WriteLine("Erosion: " + temp.parameters.erosion[0] + " - " + temp.parameters.erosion[1]);
+                    Console.WriteLine("Humidity: " + temp.parameters.humidity[0] + " - " + temp.parameters.humidity[1]);
+                    Console.WriteLine("Offset: " + temp.parameters.offset);
+                    Console.WriteLine("Temperature: " + temp.parameters.temperature[0] + " - " + temp.parameters.temperature[1]);
+                    Console.WriteLine("Weirdness: " + temp.parameters.weirdness[0] + " - " + temp.parameters.weirdness[1]);
+                    Console.WriteLine();
+                }
+                
+
             }
             );
         }
