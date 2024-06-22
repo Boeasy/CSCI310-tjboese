@@ -1,0 +1,101 @@
+Customer Notifications:
+----------------------
+CUST1584: Order Placed
+CUST1584: Order Ready to Ship
+CUST1347: Order Placed
+CUST1347: Order Shipped
+CUST0258: Order Placed
+CUST0258: Order Ready to Ship
+CUST2029: Order Placed
+CUST2029: Order Shipped
+CUST9873: Order Placed
+CUST9873: Order Ready to Ship
+CUST0849: Order Placed
+CUST0849: Order Shipped
+CUST5092: Order Placed
+CUST5092: Order Ready to Ship
+CUST8087: Order Placed
+CUST8087: Order Shipped
+CUST9543: Order Placed
+CUST9543: Order Ready to Ship
+CUST8792: Order Placed
+CUST8792: Order Shipped
+End of Customer Notifications.
+----------------------
+
+Orders Placed but Not Ready to be shipped 
+----------------------
+End of Orders Placed but Not Ready to be shipped.
+----------------------
+
+Orders Ready to Ship but Not Shipped: 
+----------------------
+Order ID: Order-a0
+Customer: Dennis Ramos
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Ready to Ship
+
+Order ID: Order-a2
+Customer: Donald Bartlett
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Ready to Ship
+
+Order ID: Order-a4
+Customer: Virginia Newman
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Ready to Ship
+
+Order ID: Order-a6
+Customer: Julia Rojas
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Ready to Ship
+
+Order ID: Order-a8
+Customer: Heather Cowan
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Ready to Ship
+
+End of Orders Ready to Ship but Not Shipped.
+
+Orders that have been Shipped: 
+----------------------
+Order ID: Order-a1
+Customer: Caroline Boone
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Shipped
+
+Order ID: Order-a3
+Customer: Crystal Holt
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Shipped
+
+Order ID: Order-a5
+Customer: Charles Estes
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Shipped
+
+Order ID: Order-a7
+Customer: Allen Page
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Shipped
+
+Order ID: Order-a9
+Customer: Frederick Allen
+Order Date: 6/21/2024 7:23:40 PM
+Ship Date: 6/23/2024 7:23:40 PM
+Status: Shipped
+
+End of Orders that have been Shipped.
+----------------------
+
+----------------------
+Totals: Orders Placed: 0 Orders Ready to Ship: 5 Orders Shipped: 5

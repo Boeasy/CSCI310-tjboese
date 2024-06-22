@@ -51,7 +51,7 @@ namespace EventManager
         }
         public static Task OrderReadyToShip()
         {
-            return Task.Run(() => Console.WriteLine("Order is awaiting shippin!"));
+            return Task.Run(() => Console.WriteLine("Order is awaiting shipping!"));
         }
         public static Task OrderShipped()
         {
@@ -145,12 +145,14 @@ namespace EventManager
     {
         Customer customer {get; set;}
         Order orders {get; set;}
+        public List<string> log {get; set;}
 
         //constructor
         public CustomerNotifications(Customer customer, Order orders)
         {
             this.customer = customer;
             this.orders = orders;
+            log = new List<string>();
 
             //subscribe to event
             orders.OrderStatusEvent += OrderStatusEvent;
@@ -162,18 +164,21 @@ namespace EventManager
             {
                 case 1:
                     Console.WriteLine($"Customer Notifiications: Order Placed for {customer.CustomerID}");
+                    log.Add($"{customer.CustomerID}: Order Placed");
                     break;
                 case 2:
                     Console.WriteLine($"Customer Notifications: {customer.CustomerID} Order Ready to Ship");
+                    log.Add($"{customer.CustomerID}: Order Ready to Ship");
                     break;
                 case 3:
                     Console.WriteLine($"Customer Notifications: {customer.CustomerID} Order Shipped");
+                    log.Add($"{customer.CustomerID}: Order Shipped");
                     break;
                 default:
                     Console.WriteLine($"Customer Notifications: {customer.CustomerID} Unknown Order Status Event Triggered");
+                    log.Add($"{customer.CustomerID}: Unknown Order Status Event Triggered");
                     break;
             }
-            Console.WriteLine("Customer: Order Status Event Triggered");
         }
     }
 
@@ -388,7 +393,80 @@ namespace EventManager
                 Console.WriteLine();
             }
             Console.WriteLine("End of Shipped Orders.");
-        
+
+            using (StreamWriter sw = new StreamWriter("orderStatusLog.txt"))
+            {
+                sw.WriteLine("Customer Notifications:");
+                sw.WriteLine("----------------------");
+                foreach (CustomerNotifications notification in customerNotifications)
+                {
+                    foreach (string log in notification.log)
+                    {
+                        sw.WriteLine(log);
+                    }
+                }
+                sw.WriteLine("End of Customer Notifications.");
+                sw.WriteLine("----------------------");
+                sw.WriteLine();
+
+                var PlacedOrders = 
+                                    from order in orders
+                                    where order.Status == "Order Placed"
+                                    select order;
+                var ReadyToShipOrders = 
+                                    from order in orders
+                                    where order.Status == "Ready to Ship"
+                                    select order;
+                var ShippedOrders = 
+                                    from order in orders
+                                    where order.Status == "Shipped"
+                                    select order;
+                sw.WriteLine("Orders Placed but Not Ready to be shipped ");
+                sw.WriteLine("----------------------");
+                foreach (var order in PlacedOrders)
+                {
+                    sw.WriteLine($"Order ID: {order.OrderID}");
+                    sw.WriteLine($"Customer: {order.Customer.Name}");
+                    sw.WriteLine($"Order Date: {order.OrderDate}");
+                    sw.WriteLine($"Ship Date: {order.ShipDate}");
+                    sw.WriteLine($"Status: {order.Status}");
+                    sw.WriteLine();
+                }
+                sw.WriteLine("End of Orders Placed but Not Ready to be shipped.");
+                sw.WriteLine("----------------------");
+                sw.WriteLine();
+                sw.WriteLine("Orders Ready to Ship but Not Shipped: ");
+                sw.WriteLine("----------------------");
+                foreach (var order in ReadyToShipOrders)
+                {
+                    sw.WriteLine($"Order ID: {order.OrderID}");
+                    sw.WriteLine($"Customer: {order.Customer.Name}");
+                    sw.WriteLine($"Order Date: {order.OrderDate}");
+                    sw.WriteLine($"Ship Date: {order.ShipDate}");
+                    sw.WriteLine($"Status: {order.Status}");
+                    sw.WriteLine();
+                }
+                sw.WriteLine("End of Orders Ready to Ship but Not Shipped.");
+                sw.WriteLine();
+                sw.WriteLine("Orders that have been Shipped: ");
+                sw.WriteLine("----------------------");
+                foreach (var order in ShippedOrders)
+                {
+                    sw.WriteLine($"Order ID: {order.OrderID}");
+                    sw.WriteLine($"Customer: {order.Customer.Name}");
+                    sw.WriteLine($"Order Date: {order.OrderDate}");
+                    sw.WriteLine($"Ship Date: {order.ShipDate}");
+                    sw.WriteLine($"Status: {order.Status}");
+                    sw.WriteLine();
+                }
+                sw.WriteLine("End of Orders that have been Shipped.");
+                sw.WriteLine("----------------------");
+                sw.WriteLine();
+                sw.WriteLine("----------------------");
+                sw.WriteLine($"Totals: Orders Placed: {PlacedOrders.Count()} Orders Ready to Ship: {ReadyToShipOrders.Count()} Orders Shipped: {ShippedOrders.Count()}"); 
+                
+                
+            }
         }
     }
 
