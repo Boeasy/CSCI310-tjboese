@@ -58,12 +58,21 @@ namespace EventManager
             return Task.Run(() => Console.WriteLine("Your Order is on the way!"));
         }
 
-        public void OrderStatusEvent(object source, EventArgs args)
+        public void OrderStatusEvent(object source, OrderStatusEventArgs args)
         {
-            Console.WriteLine("Customer: Order Status Event Triggered");
+            Console.WriteLine($"Customer {CustomerID} Order Status Event Triggered: {args.Status}");
         }
 
 
+    }
+
+    public class OrderStatusEventArgs : EventArgs
+    {
+        public int Status { get; set; }
+        public OrderStatusEventArgs(int status)
+        {
+            Status = status;
+        }
     }
 
     class Order : CustomerOrders
@@ -85,7 +94,7 @@ namespace EventManager
         }
 
         //Events
-        public delegate void OrderStatusEventHandler(object source, EventArgs args);
+        public delegate void OrderStatusEventHandler(object source, OrderStatusEventArgs args);
         public event OrderStatusEventHandler OrderStatusEvent;
 
         //METHODS 
@@ -95,7 +104,8 @@ namespace EventManager
             {
                 Console.WriteLine("Order Placed");
                 newOrder.Status = "Order Placed";
-                newOrder.OnOrderStatusEvent();
+                OrderStatusEventArgs tempArgs = new OrderStatusEventArgs(1);
+                newOrder.OnOrderStatusEvent(tempArgs);
             });
         }
         public static Task OrderReadyToShip(Order newOrder)
@@ -104,7 +114,8 @@ namespace EventManager
             {
                 Console.WriteLine("Order Ready to Ship");
                 newOrder.Status = "Ready to Ship";
-                newOrder.OnOrderStatusEvent();
+                OrderStatusEventArgs tempArgs = new OrderStatusEventArgs(2);
+                newOrder.OnOrderStatusEvent(tempArgs);
             }
             );
         }
@@ -114,16 +125,17 @@ namespace EventManager
             {
                 Console.WriteLine("Order Shipped");
                 newOrder.Status = "Shipped";
-                newOrder.OnOrderStatusEvent();
+                OrderStatusEventArgs tempArgs = new OrderStatusEventArgs(3);
+                newOrder.OnOrderStatusEvent(tempArgs);
             }
             );
         }
 
-        protected virtual void OnOrderStatusEvent()
+        protected virtual void OnOrderStatusEvent(OrderStatusEventArgs args)
         {
             if (OrderStatusEvent != null)
             {
-                OrderStatusEvent(this, EventArgs.Empty);
+                OrderStatusEvent(this, args);
             }
         }
 
@@ -144,9 +156,24 @@ namespace EventManager
             orders.OrderStatusEvent += OrderStatusEvent;
         }
 
-        public void OrderStatusEvent(object source, EventArgs args)
+        public void OrderStatusEvent(object source, OrderStatusEventArgs args)
         {
-            Console.WriteLine($"Customer Notifications: {customer.CustomerID} Order Status Event Triggered");
+            switch (args.Status)
+            {
+                case 1:
+                    Console.WriteLine($"Customer Notifiications: Order Placed for {customer.CustomerID}");
+                    break;
+                case 2:
+                    Console.WriteLine($"Customer Notifications: {customer.CustomerID} Order Ready to Ship");
+                    break;
+                case 3:
+                    Console.WriteLine($"Customer Notifications: {customer.CustomerID} Order Shipped");
+                    break;
+                default:
+                    Console.WriteLine($"Customer Notifications: {customer.CustomerID} Unknown Order Status Event Triggered");
+                    break;
+            }
+            Console.WriteLine("Customer: Order Status Event Triggered");
         }
     }
 
