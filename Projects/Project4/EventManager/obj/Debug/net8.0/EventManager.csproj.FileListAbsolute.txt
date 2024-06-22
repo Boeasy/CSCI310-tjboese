@@ -1,0 +1,15 @@
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/bin/Debug/net8.0/EventManager
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/bin/Debug/net8.0/EventManager.deps.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/bin/Debug/net8.0/EventManager.runtimeconfig.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/bin/Debug/net8.0/EventManager.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/bin/Debug/net8.0/EventManager.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.AssemblyInfoInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.AssemblyInfo.cs
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.csproj.CoreCompileInputs.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.sourcelink.json
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/refint/EventManager.dll
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.pdb
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/EventManager.genruntimeconfig.cache
+/Users/tyrelboese/CompSci/CSharp/CSCI310-tjboese/Projects/Project4/EventManager/obj/Debug/net8.0/ref/EventManager.dll
