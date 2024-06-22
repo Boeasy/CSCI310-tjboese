@@ -327,11 +327,15 @@ namespace EventManager
             {
                 await Order.OrderShipped(order);
             }
+            Console.WriteLine();
 
             Console.WriteLine("Daily business operations complete, printing reports...");
 
             Console.WriteLine("orders that are ready to ship: ");
-            var readyToShipOrders = orders.Where(order => order.Status == "Ready to Ship");
+            var readyToShipOrders = 
+                                        from order in orders
+                                        where order.Status == "Ready to Ship"
+                                        select order;
             foreach (var order in readyToShipOrders)
             {
                 Console.WriteLine($"Order ID: {order.OrderID}");
@@ -343,7 +347,10 @@ namespace EventManager
             }
             Console.WriteLine("End of Ready to Ship Orders.");
             Console.WriteLine("Orders that have been shipped: ");
-            var shippedOrders = orders.Where(order => order.Status == "Shipped");
+            var shippedOrders =
+                                        from order in orders
+                                        where order.Status == "Shipped"
+                                        select order;
             foreach (var order in shippedOrders)
             {
                 Console.WriteLine($"Order ID: {order.OrderID}");
