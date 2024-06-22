@@ -303,7 +303,7 @@ namespace EventManager
             //wait for orders to be placed...
             await Task.Delay(500);
 
-            //Place Order
+            //Place Order - placing every order
             foreach (Order order in orders)
             {
                 customerNotifications.Add(new CustomerNotifications(order.Customer, order));
@@ -313,20 +313,47 @@ namespace EventManager
             //wait for orders to be ready to ship...
             await Task.Delay(500);
 
-            //Order Ready to Ship
-            foreach (Order order in orders)
+            //Order Ready to Ship - lambda to ship every other order
+            foreach (Order order in orders.Where((o, index) => index % 2 == 0))
             {
-                await Order.OrderReadyToShip(order);                
+                await Order.OrderReadyToShip(order);
             }
 
             //wait for orders to be shipped...
             await Task.Delay(500);
 
-            //Order Shipped
-            foreach (Order order in orders)
+            //Order Shipped - shipping the orders that were not shipped in the last step
+            foreach (Order order in orders.Where((o, Index) => Index %2 != 0))
             {
                 await Order.OrderShipped(order);
             }
+
+            Console.WriteLine("Daily business operations complete, printing reports...");
+
+            Console.WriteLine("orders that are ready to ship: ");
+            var readyToShipOrders = orders.Where(order => order.Status == "Ready to Ship");
+            foreach (var order in readyToShipOrders)
+            {
+                Console.WriteLine($"Order ID: {order.OrderID}");
+                Console.WriteLine($"Customer: {order.Customer.Name}");
+                Console.WriteLine($"Order Date: {order.OrderDate}");
+                Console.WriteLine($"Ship Date: {order.ShipDate}");
+                Console.WriteLine($"Status: {order.Status}");
+                Console.WriteLine();
+            }
+            Console.WriteLine("End of Ready to Ship Orders.");
+            Console.WriteLine("Orders that have been shipped: ");
+            var shippedOrders = orders.Where(order => order.Status == "Shipped");
+            foreach (var order in shippedOrders)
+            {
+                Console.WriteLine($"Order ID: {order.OrderID}");
+                Console.WriteLine($"Customer: {order.Customer.Name}");
+                Console.WriteLine($"Order Date: {order.OrderDate}");
+                Console.WriteLine($"Ship Date: {order.ShipDate}");
+                Console.WriteLine($"Status: {order.Status}");
+                Console.WriteLine();
+            }
+            Console.WriteLine("End of Shipped Orders.");
         
         }
     }
